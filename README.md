@@ -71,15 +71,10 @@ I can't provide personal tax advice. For questions about your own situation, ple
 
 ## Licence
 
-© 2026 MAB. Licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-
-You are free to share and adapt this workbook, provided you:
-1. give appropriate credit and link to the licence
-2. do not use it, or any adapted version, for commercial purposes (including preparing returns for others)
-3. share any adapted version under the same licence
+© 2026 MAB. CGT Calculator. You are free to share and adapt this workbook, provided you do not use it, or any adapted version, for commercial purposes (including preparing returns for others).
 
 ## Disclaimer
 
 This workbook is provided for general information and personal use only. It is not tax, financial or legal advice. The formulas were developed with the assistance of AI, combined with the author's own finance and accounting knowledge, and have been tested against the author's own portfolio only. Results must not be relied on without your own review against your broker statements, contract notes, tax statements and current ATO guidance, or a review by a registered tax agent. The workbook is provided **as is**, without warranty of any kind, with no obligation to maintain, update or support it, and no responsibility or liability is accepted for any errors, omissions, or any loss or penalty arising from its use.
 
-This is an independent, unofficial tool. It is not affiliated with, endorsed by or sponsored by the Australian Taxation Office, CommSec (Commonwealth Bank of Australia), CMC Markets or any other broker. Their names are used only to identify the statement formats the workbook reads, and all trademarks belong to their owners.
+This is an independent, unofficial tool. It is not affiliated with, endorsed by or sponsored by any party. Their names are used only to identify the statement formats the workbook reads, and all trademarks belong to their owners.
