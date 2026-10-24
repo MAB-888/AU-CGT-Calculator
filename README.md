@@ -14,7 +14,7 @@ It is a plain **`.xlsx` file with no macros or VBA**, so nothing runs when you o
 
 ## Features
 
-- **Broker import:** paste transaction statements from **CommSec**, **CommSec Pocket** and **CMC Markets**, in any combination (leave unused accounts blank)
+- **Broker import:** paste transaction statements (csv format) from **CommSec**, **CommSec Pocket** and **CMC Markets**, in any combination (leave unused accounts blank)
 - **FIFO parcel matching:** each sale is matched to the oldest unsold parcel of the same ticker in the same account
 - **12-month discount rule:** a parcel is long-term only if held at least 12 months, excluding the purchase and sale days, per the ATO
 - **Entity types:** Individual (50%), Trust (50%), Super Fund (33⅓%), Company (nil)
@@ -34,10 +34,10 @@ It is a plain **`.xlsx` file with no macros or VBA**, so nothing runs when you o
 
 ## How to use
 
-1. **Set up:** on the **CGT Summary** tab, choose the Financial Year and Entity Type.
-2. **Load broker data:** export your transaction statements and paste them, as values only (`Ctrl+Alt+V` → Values), into the account tabs:
-   - **Account 1 (CommSec)** and **Account 2 (CommSec Pocket)**: columns A–F (Date, Reference, Details, Debit, Credit, Balance)
-   - **Account 3 (CMC)**: columns A–G (Date, Reference, Type, Description, Debit, Credit, Balance)
+1. **Load broker data:** export your transaction statements (csv format) and paste them, as values only into the account tabs (better to select from the earliest financial year so that it can pick up the correct cost base of the purchases):
+   - **Account 1 (CommSec)** and **Account 2 (CommSec Pocket)**: from row 2, columns A–F (Date, Reference, Details, Debit, Credit, Balance)
+   - **Account 3 (CMC)**: from row 2, columns A–G (Date, Reference, Type, Description, Debit, Credit, Balance)
+2. **Set up:** on the **CGT Summary** tab, choose the Financial Year and Entity Type.
 3. **Adjustments:** record any corporate actions on **Cost Base Adjustments**, and trust distributions on **Trust Distributions**.
 4. **Review:** check **CGT Summary**, **CGT Detail** and **Holdings 30 Jun**.
 5. **Transfer:** use *Net Taxable Capital Gain* and *Losses carried forward to next year* in your tax return.
