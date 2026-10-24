@@ -34,7 +34,7 @@ It is a plain **`.xlsx` file with no macros or VBA**, so nothing runs when you o
 
 ## How to use
 
-1. **Load broker data:** export your transaction statements (csv format) and paste them, as values only into the account tabs (better to select from the earliest financial year so that it can pick up the correct cost base of the purchases):
+1. **Load broker data:** export your transaction statements (csv format, better to select from the earliest financial year so that it can pick up the correct cost base of the purchases) and paste them, as values only into the account tabs:
    - **Account 1 (CommSec)** and **Account 2 (CommSec Pocket)**: from row 2, columns A–F (Date, Reference, Details, Debit, Credit, Balance)
    - **Account 3 (CMC)**: from row 2, columns A–G (Date, Reference, Type, Description, Debit, Credit, Balance)
 2. **Set up:** on the **CGT Summary** tab, choose the Financial Year and Entity Type.
