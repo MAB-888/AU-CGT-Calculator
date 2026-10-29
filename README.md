@@ -50,7 +50,7 @@ Full step-by-step instructions are on the **Instructions** tab inside the workbo
 - **For** Australian resident taxpayers holding ASX-listed shares and ETFs
 - **Not covered:** foreign residents, foreign-listed assets or currency, options, warrants, CFDs, crypto, employee share schemes, pre-CGT assets, cost base indexation, small business concessions and inherited assets
 - **Corporate actions** are only included if you record them yourself
-- **FIFO** is used for convenience. If your records identify the specific parcels you sold, the ATO allows you to use those instead, and your results may differ
+- **FIFO** is used for convenience. Other methods (eg. exact matching, average cost, etc.) are not covered in this spreadsheet. If your records use different methods other than FIFO, your results may differ
 - **Broker formats:** parsing relies on each broker's export layout as at the version date and may break if a broker changes its format
 - **Tax law changes:** rules and rates can change after the version date. Check current ATO guidance for each year you use it
 
