@@ -15,7 +15,7 @@ It is a plain **`.xlsx` file with no macros or VBA**, so nothing runs when you o
 ## Features
 
 - **Broker import:** paste transaction statements (csv format) from **CommSec**, **CommSec Pocket** and **CMC Markets**, in any combination (leave unused accounts blank)
-- **FIFO parcel matching:** each sale is matched to the oldest unsold parcel of the same ticker in the same account
+- **FIFO parcel matching:** each sale is matched to the oldest unsold parcel of the same ticker in the same account (FIFO is the assumed method of use, other methods are allowed by the ATO but not covered in this spreadsheet) 
 - **12-month discount rule:** a parcel is long-term only if held at least 12 months, excluding the purchase and sale days, per the ATO
 - **Entity types:** Individual (50%), Trust (50%), Super Fund (33⅓%), Company (nil)
 - **Capital losses:** current-year and carried-forward losses are applied to short-term gains first, then discountable gains, before the discount
@@ -50,7 +50,7 @@ Full step-by-step instructions are on the **Instructions** tab inside the workbo
 - **For** Australian resident taxpayers holding ASX-listed shares and ETFs
 - **Not covered:** foreign residents, foreign-listed assets or currency, options, warrants, CFDs, crypto, employee share schemes, pre-CGT assets, cost base indexation, small business concessions and inherited assets
 - **Corporate actions** are only included if you record them yourself
-- **FIFO** is used for convenience. Other methods (eg. exact matching, average cost, etc.) are not covered in this spreadsheet. If your records use different methods other than FIFO, your results may differ
+- **FIFO** is the assumed method of use. Other methods (eg. exact matching, average cost, etc.) are not covered in this spreadsheet. If your records use different methods other than FIFO, your results may differ
 - **Broker formats:** parsing relies on each broker's export layout as at the version date and may break if a broker changes its format
 - **Tax law changes:** rules and rates can change after the version date. Check current ATO guidance for each year you use it
 
